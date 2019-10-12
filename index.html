@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>InTennis - Member Info Checker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <!-- WRAPPER -->
+    <div id="wrapper">
+        <h1>InTennis - Member Info Checker</h1>
+        <!-- LEFT -->
+        <div id="left">
+            <!-- FORM -->
+            <label for="input-membership-number">Membership Number:</label>
+            <input type="text" id="input-membership-number">
+            <input type="submit" value="Search" id="input-submit">
+            <!-- INFO TABLE -->
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Member ID:</th>
+                        <td id="member-id">-</td>
+                    </tr>
+                    <tr>
+                        <th>Membership Number:</th>
+                        <td id="membership-number">-</td>
+                    </tr>
+                    <tr>
+                        <th>Membership Type ID:</th>
+                        <td id="membership-type-id">-</td>
+                    </tr>
+                    <tr>
+                        <th>Membership Type Name:</th>
+                        <td id="membership-type-name">-</td>
+                    </tr>
+                    <tr>
+                        <th>Status:</th>
+                        <td id="status">-</td>
+                    </tr>
+                    <tr>
+                        <th>Status Text:</th>
+                        <td id="status-text">-</td>
+                    </tr>
+                    <tr>
+                        <th>Expired:</th>
+                        <td id="expired">-</td>
+                    </tr>
+                    <tr>
+                        <th>Period Start:</th>
+                        <td id="period-start">-</td>
+                    </tr>
+                    <tr>
+                        <th>Period End:</th>
+                        <td id="period-end">-</td>
+                    </tr>
+                    <tr>
+                        <th>Card Number:</th>
+                        <td id="card-number">-</td>
+                    </tr>
+                    <tr>
+                        <th>Contact ID:</th>
+                        <td id="contact-id">-</td>
+                    </tr>
+                    <tr>
+                        <th>First Name:</th>
+                        <td id="first-name">-</td>
+                    </tr>
+                    <tr>
+                        <th>Last Name:</th>
+                        <td id="last-name">-</td>
+                    </tr>
+                    <tr>
+                        <th>Email:</th>
+                        <td id="email">-</td>
+                    </tr>
+                    <tr>
+                        <th>Mobile:</th>
+                        <td id="mobile">-</td>
+                    </tr>
+                    <tr>
+                        <th>Home Phone:</th>
+                        <td id="home-phone">-</td>
+                    </tr>
+                    <tr>
+                        <th>Work Phone:</th>
+                        <td id="work-phone">-</td>
+                    </tr>
+                    <tr>
+                        <th>Phone:</th>
+                        <td id="phone">-</td>
+                    </tr>
+                    <tr>
+                        <th>Gender:</th>
+                        <td id="gender">-</td>
+                    </tr>
+                    <tr>
+                        <th>ITN:</th>
+                        <td id="itn">-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- RIGHT -->
+        <div id="right">
+            <!-- STATUS MESSAGE -->
+            <p id="status-message"><strong>Status</strong>: -</p>
+            <!-- LOG -->
+            <pre id="log"></pre>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="functions.js"></script>
+</body>
+
+</html>
